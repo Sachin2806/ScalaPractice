@@ -4,14 +4,7 @@ object ClassDemo2 {
   
   def main(args: Array[String]): Unit = {
    
-//    //Demo of class User
-//    class User(var name: String, var age: Int);
-//    
-//    var user = new User("Sachin", 36)
-//    
-//    println(user.name)
-//    println(user.age)
-   
+ 
    //Demo of class Point
    class Point(val xc: Int, val yc: Int) {
    var x: Int = xc
