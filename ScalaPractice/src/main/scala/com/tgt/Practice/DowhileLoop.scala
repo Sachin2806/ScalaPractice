@@ -7,13 +7,12 @@ object DoWhileLoop {
     //Local variable declaration
     var a = 10;
     
-    //While loop Execution
+    //Do While loop Execution
     
-    while(a < 20)
-    {
+    do{
       println("Value of a: " + a)
       a = a + 1
-    }
+    }while(a < 20)
     
   }
 }

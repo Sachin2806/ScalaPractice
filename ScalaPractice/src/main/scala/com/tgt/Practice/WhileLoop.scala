@@ -3,16 +3,17 @@ package com.tgt.Practice
 object WhileLoop {
   
   def main(args: Array[String]){
-    
-    //Local variable declaration
+      
+      //Local variable declaration
     var a = 10;
     
-    //Do While loop Execution
+    //While loop Execution
     
-    do{
+    while(a < 20)
+    {
       println("Value of a: " + a)
       a = a + 1
-    }while(a < 20)
+    }
     
   }
 }
