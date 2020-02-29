@@ -1,0 +1,29 @@
+package com.tgt.Practice.Final
+
+object ProgExtractor1
+{
+  
+  def main(args: Array[String])
+  {
+    println ("Apply method   : " + apply("sachin.chavan043", "gmail.com"))
+    println ("Unapply method : " + unapply("sachin.chavan043@gmail.com"))
+    println ("Unapply method : " + unapply("Zara Ali"))
+   }
+  
+  // The injection method (optional)
+   def apply(user: String, domain: String) = {
+      user +"@"+ domain
+   }
+
+   // The extraction method (mandatory)
+   def unapply(str: String): Option[(String, String)] = {
+      val parts = str split "@"
+      
+      if (parts.length == 2)
+      {
+         Some(parts(0), parts(1)) 
+      } else {
+         None
+      }
+   }
+}
