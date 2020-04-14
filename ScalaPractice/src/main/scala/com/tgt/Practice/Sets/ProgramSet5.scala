@@ -1,4 +1,4 @@
-package com.tgt.Practice.Collections
+package com.tgt.Practice.Sets
 import scala.collection.mutable._
 
 object ProgramSet5 {

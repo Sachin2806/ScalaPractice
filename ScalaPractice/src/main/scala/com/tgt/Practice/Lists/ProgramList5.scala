@@ -1,6 +1,4 @@
-package com.tgt.Practice.Collections
-
-import sun.applet.Main
+package com.tgt.Practice.Lists
 
 object ProgramList5 {
   

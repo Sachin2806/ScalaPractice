@@ -8,7 +8,8 @@ object Function9{
   {
       printStrings("Hello", "Scala", "Python")
    }
-   //simple example to show the function with arguments.
+   
+  //simple example to show the function with arguments.
    def printStrings(args:String* ) = 
    {
      var i : Int = 0;

@@ -1,4 +1,4 @@
-package com.tgt.Practice.Collections
+package com.tgt.Practice.Lists
 
 object ProgramList3 {
   
@@ -11,6 +11,14 @@ object ProgramList3 {
       val num = List.fill(10)(2)
       val fruit1 = List("apples", "oranges", "pears")
       
+      val a = List(10,20,30,40,50)
+      //The zip operation takes two lists and forms a list of pairs
+      val b = a.indices zip a
+      
+      //If the two lists are of different length, any unmatched elements are dropped
+      val zipped = "abcde" zip List(1, 2, 3).toList
+      val part = List(1,2,3,4,5,6)
+      
       //Tabulating a function
       val xs1 = List.tabulate(5)(_ + 1)
       val xs2 = List.tabulate(5)(_ + 2)
@@ -22,5 +30,13 @@ object ProgramList3 {
       println( "xs2 : " + xs2 )
       println( "xs3 : " + xs3 )
       println("Reversing List" + fruit1.reverse)
+      
+      println("Demo of indices 					: " + a.indices)
+      println("Demo of zip with indices : " + b)
+      println("Demo of zip with indices : " + zipped)
+      println("Demo of partition : " + part.partition(_ %2 == 0))
+      println("Demo of find		 : " + part.find(_ %2 == 0))
+      println("Demo of find		 : " + part.find(_  <= 0))
+      
   }
 }

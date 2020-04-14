@@ -19,11 +19,10 @@ object Example2 {
     }
    
    // Print all the array elements
-  println("Other way of concetenating")
+   println("Other way of concetenating")
    for ( x <- myList4 ) 
    {
-    
-     println( x )
+    println( x )
     }
   }
 }

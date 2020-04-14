@@ -1,4 +1,4 @@
-package com.tgt.Practice.Collections
+package com.tgt.Practice.Lists
 
 object ProgramList2 {
   

@@ -49,7 +49,5 @@ object Example4 {
       println( x ) 
     } 
     
-    // A
-    
   }
 }

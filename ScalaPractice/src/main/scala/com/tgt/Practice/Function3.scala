@@ -4,8 +4,8 @@ object Function3{
   
   def main(args: Array[String]){
     
-    val str1:String = "Hello "
-    val str2:String = "Scala!"
+    val str1 = "Hello "
+    val str2 = "Scala!"
     
     println("str1 + str2 = " + strcat(str1)(str2))
   
